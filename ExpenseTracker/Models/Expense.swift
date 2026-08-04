@@ -2,7 +2,7 @@
 //  Expense.swift
 //  ExpenseTracker
 //
-//  Created by Malik Alijanov on 30.07.26.
+//  Created by Malik Alijanov on 02.08.26.
 //
 
 import Foundation
@@ -13,12 +13,12 @@ struct Expense: Codable {
     let category: String
     let amount: Double
     let createdAt: Date
+}
 
-    enum CodingKeys: String, CodingKey {
-        case id
-        case title
-        case category
-        case amount
-        case createdAt = "created_at"
-    }
+enum CodingKeys: String, CodingKey {
+    case id
+    case title
+    case category
+    case amount
+    case createdAt = "created_at"
 }

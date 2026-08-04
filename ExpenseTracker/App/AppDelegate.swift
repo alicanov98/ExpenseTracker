@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ExpenseTracker
 //
-//  Created by Malik Alijanov on 30.07.26.
+//  Created by Malik Alijanov on 02.08.26.
 //
 
 import UIKit

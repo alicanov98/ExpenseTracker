@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4902EE8301BD1D00093381D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F4902EE7301BD1D00093381D /* SnapKit */; };
+		F47D06F0301FBA89009C25E9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F47D06EF301FBA89009C25E9 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4902E85301BCF140093381D /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47D06AF301FB748009C25E9 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F4902E97301BCF150093381D /* Exceptions for "ExpenseTracker" folder in "ExpenseTracker" target */ = {
+		F47D06C1301FB749009C25E9 /* Exceptions for "ExpenseTracker" folder in "ExpenseTracker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F4902E84301BCF140093381D /* ExpenseTracker */;
+			target = F47D06AE301FB748009C25E9 /* ExpenseTracker */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4902E87301BCF140093381D /* ExpenseTracker */ = {
+		F47D06B1301FB748009C25E9 /* ExpenseTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F4902E97301BCF150093381D /* Exceptions for "ExpenseTracker" folder in "ExpenseTracker" target */,
+				F47D06C1301FB749009C25E9 /* Exceptions for "ExpenseTracker" folder in "ExpenseTracker" target */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -36,29 +36,29 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4902E82301BCF140093381D /* Frameworks */ = {
+		F47D06AC301FB748009C25E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4902EE8301BD1D00093381D /* SnapKit in Frameworks */,
+				F47D06F0301FBA89009C25E9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4902E7C301BCF140093381D = {
+		F47D06A6301FB748009C25E9 = {
 			isa = PBXGroup;
 			children = (
-				F4902E87301BCF140093381D /* ExpenseTracker */,
-				F4902E86301BCF140093381D /* Products */,
+				F47D06B1301FB748009C25E9 /* ExpenseTracker */,
+				F47D06B0301FB748009C25E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4902E86301BCF140093381D /* Products */ = {
+		F47D06B0301FB748009C25E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4902E85301BCF140093381D /* ExpenseTracker.app */,
+				F47D06AF301FB748009C25E9 /* ExpenseTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,68 +66,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4902E84301BCF140093381D /* ExpenseTracker */ = {
+		F47D06AE301FB748009C25E9 /* ExpenseTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4902E98301BCF150093381D /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
+			buildConfigurationList = F47D06C2301FB749009C25E9 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
 			buildPhases = (
-				F4902E81301BCF140093381D /* Sources */,
-				F4902E82301BCF140093381D /* Frameworks */,
-				F4902E83301BCF140093381D /* Resources */,
+				F47D06AB301FB748009C25E9 /* Sources */,
+				F47D06AC301FB748009C25E9 /* Frameworks */,
+				F47D06AD301FB748009C25E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F4902E87301BCF140093381D /* ExpenseTracker */,
+				F47D06B1301FB748009C25E9 /* ExpenseTracker */,
 			);
 			name = ExpenseTracker;
 			packageProductDependencies = (
-				F4902EE7301BD1D00093381D /* SnapKit */,
+				F47D06EF301FBA89009C25E9 /* SnapKit */,
 			);
 			productName = ExpenseTracker;
-			productReference = F4902E85301BCF140093381D /* ExpenseTracker.app */;
+			productReference = F47D06AF301FB748009C25E9 /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4902E7D301BCF140093381D /* Project object */ = {
+		F47D06A7301FB748009C25E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					F4902E84301BCF140093381D = {
+					F47D06AE301FB748009C25E9 = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = F4902E80301BCF140093381D /* Build configuration list for PBXProject "ExpenseTracker" */;
+			buildConfigurationList = F47D06AA301FB748009C25E9 /* Build configuration list for PBXProject "ExpenseTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F4902E7C301BCF140093381D;
+			mainGroup = F47D06A6301FB748009C25E9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F4902EE6301BD1D00093381D /* XCRemoteSwiftPackageReference "snapkit" */,
+				F47D06EE301FBA89009C25E9 /* XCRemoteSwiftPackageReference "snapkit" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F4902E86301BCF140093381D /* Products */;
+			productRefGroup = F47D06B0301FB748009C25E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4902E84301BCF140093381D /* ExpenseTracker */,
+				F47D06AE301FB748009C25E9 /* ExpenseTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4902E83301BCF140093381D /* Resources */ = {
+		F47D06AD301FB748009C25E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,7 +137,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4902E81301BCF140093381D /* Sources */ = {
+		F47D06AB301FB748009C25E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,7 +147,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F4902E99301BCF150093381D /* Debug */ = {
+		F47D06C3301FB749009C25E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		F4902E9A301BCF150093381D /* Release */ = {
+		F47D06C4301FB749009C25E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -209,7 +209,7 @@
 			};
 			name = Release;
 		};
-		F4902E9B301BCF150093381D /* Debug */ = {
+		F47D06C5301FB749009C25E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +273,7 @@
 			};
 			name = Debug;
 		};
-		F4902E9C301BCF150093381D /* Release */ = {
+		F47D06C6301FB749009C25E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,20 +333,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4902E80301BCF140093381D /* Build configuration list for PBXProject "ExpenseTracker" */ = {
+		F47D06AA301FB748009C25E9 /* Build configuration list for PBXProject "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4902E9B301BCF150093381D /* Debug */,
-				F4902E9C301BCF150093381D /* Release */,
+				F47D06C5301FB749009C25E9 /* Debug */,
+				F47D06C6301FB749009C25E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4902E98301BCF150093381D /* Build configuration list for PBXNativeTarget "ExpenseTracker" */ = {
+		F47D06C2301FB749009C25E9 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4902E99301BCF150093381D /* Debug */,
-				F4902E9A301BCF150093381D /* Release */,
+				F47D06C3301FB749009C25E9 /* Debug */,
+				F47D06C4301FB749009C25E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -354,7 +354,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F4902EE6301BD1D00093381D /* XCRemoteSwiftPackageReference "snapkit" */ = {
+		F47D06EE301FBA89009C25E9 /* XCRemoteSwiftPackageReference "snapkit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/snapkit/snapkit";
 			requirement = {
@@ -365,12 +365,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F4902EE7301BD1D00093381D /* SnapKit */ = {
+		F47D06EF301FBA89009C25E9 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F4902EE6301BD1D00093381D /* XCRemoteSwiftPackageReference "snapkit" */;
+			package = F47D06EE301FBA89009C25E9 /* XCRemoteSwiftPackageReference "snapkit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F4902E7D301BCF140093381D /* Project object */;
+	rootObject = F47D06A7301FB748009C25E9 /* Project object */;
 }
